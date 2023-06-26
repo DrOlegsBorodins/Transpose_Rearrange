@@ -11,7 +11,7 @@ Project:
     https://github.com/DrOlegsBorodins/Transpose_Rearrange.git
 
 PLEASE USE:
-    CITATION.cff file as a citatin if my work contributed to your publication.
+    CITATION.cff file as a citation if my work contributed to your publication.
 
 
 Description:
@@ -51,9 +51,9 @@ presentation by reorienting the table's structure. It allows for different
 perspectives on the data and can improve its usability for various purposes.    
     
 Information:
-    We will use the randomlly generated data 
+    We will use the randomly generated data 
     provied by Tabel_Raw.csv 
-    (you also can find it in my github).
+    (you also can find it in my GitHub).
 
 Important web sources:
 
@@ -97,12 +97,12 @@ Data = pd.read_csv(RawData, low_memory=False, index_col=0)
 print(Data.head(3))
 
 
-#%%  Now we simply use transpose function to change spaces between the rows and columns ( so now our columns become raw and vice versa) 
+#%%  Now we simply use the transpose function to change spaces between the rows and columns ( so now our columns become raw and vice versa) 
 
 Result = Data.transpose()
 
 
-#%% Let seve the table 
+#%% Let's save the table 
 
 # Choose the format 
 table_format = '.csv' 
